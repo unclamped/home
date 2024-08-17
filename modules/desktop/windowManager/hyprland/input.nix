@@ -10,11 +10,11 @@ with lib;
       settings = {
         input = {
           follow_mouse = 1;
-          kb_layout = "us";
+          kb_layout = "es";
           kb_model = "";
           kb_options = "";
           kb_rules = "";
-          kb_variant = "";
+          kb_variant = "nodeadkeys";
           numlock_by_default = true;
           repeat_delay = 200;
           repeat_rate = 40;
