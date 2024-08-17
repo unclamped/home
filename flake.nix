@@ -124,7 +124,7 @@
               org = "casa";
               role = "workstation";
               hostname = "turing";
-              username = gn;
+              username = name;
               displays = 1;
               display_center = "HDMI-A-1";
               networkInterface = "enp0s20f0u4";
