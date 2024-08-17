@@ -19,7 +19,7 @@ in
   ];
 
   home = {
-    homeDirectory = homeDir+username;
+    homeDirectory = "/home/${username}";
     inherit username;
   };
 }
