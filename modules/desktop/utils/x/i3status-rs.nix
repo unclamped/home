@@ -117,7 +117,7 @@ in
               (mkIf (role == "laptop") (mkAfter [
                 {
                   block = "net";
-                  device = networkInterface;
+                  device = networkInterface or "eno1";
                   format = " $icon ";
                   format_alt = " {$ssid $signal_strength | Wired connection}";
                   interval = 60;
@@ -245,7 +245,7 @@ in
               }
               {
                 block = "net";
-                device = networkInterface;
+                device = networkInterface or "eno1";
                 format = " $speed_down.eng(w:6) $speed_up.eng(w:6) $icon {$ssid $signal_strength | Wired connection}";
                 interval = 1;
                 click = [

@@ -1,3 +1,5 @@
+# TODO: Refactor to Stylix
+
 {config, inputs, lib, pkgs, specialArgs, ...}:
 
 let
