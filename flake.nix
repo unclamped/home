@@ -119,7 +119,7 @@
       {
         overlays = import ./overlays {inherit inputs;};
         homeConfigurations = {
-          "turing.${gn}" = HomeConfiguration {
+          "turing.${name}" = HomeConfiguration {
             extraSpecialArgs = {
               org = "casa";
               role = "workstation";
