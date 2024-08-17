@@ -81,12 +81,12 @@
       name = "maru";
       /* gnsn = "daveconroy";
       handle = "tiredofit";
- */
+      */
       pkgsForSystem = system: import nixpkgs {
         overlays = [
           inputs.comma.overlays.default
           inputs.nix-vscode-extensions.overlays.default
-          inputs.nixpkgs-wayland.overlay
+          #inputs.nixpkgs-wayland.overlay
           inputs.nur.overlay
           outputs.overlays.additions
           outputs.overlays.modifications

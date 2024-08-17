@@ -62,13 +62,12 @@ with lib;
         };
       };
       service.decrypt_encfs_workspace.enable = false;
-      user = {
-        maru = {
-          secrets = {
-
-          };
-        };
-      };
+      #user = {
+      #  maru = {
+      #    secrets = {
+      #    };
+      #  };
+      #};
     };
   };
 
