@@ -11,6 +11,7 @@ with lib;
         avidemux.enable = true;
         cura.enable = true;
         czkawka.enable = mkDefault true;
+        direnv.enable = true;
         encfs.enable = true;
         github-client.enable = true;
         gnome-encfs-manager.enable = true;
