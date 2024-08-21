@@ -9,7 +9,6 @@ with lib;
       applications = {
         docker-compose.enable = mkDefault true;
         git.enable = mkDefault true;
-        nextcloud-client.enable = mkDefault false;
       };
       feature = {
       };
