@@ -14,7 +14,7 @@ with lib;
           kb_model = "";
           kb_options = "";
           kb_rules = "";
-          kb_variant = "nodeadkeys";
+          kb_variant = "";
           numlock_by_default = true;
           repeat_delay = 200;
           repeat_rate = 40;
